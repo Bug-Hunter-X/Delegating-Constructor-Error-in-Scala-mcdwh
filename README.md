@@ -1,0 +1,1 @@
+This example demonstrates a subtle error that can occur in Scala when using delegating constructors.  The compiler unexpectedly requires an explicit definition of the main constructor, even when a delegating constructor is provided. This is because the compiler doesn't automatically infer the main constructor in cases with parameters and a delegating constructor.
